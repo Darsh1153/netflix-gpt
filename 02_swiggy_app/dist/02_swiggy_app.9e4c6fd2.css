@@ -1,0 +1,123 @@
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-items > ul {
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 19px;
+  font-size: 24px;
+  list-style: none;
+}
+
+.res-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 350px;
+  margin: 5px;
+  padding-bottom: 12px;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform .2s ease-in-out;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.res-img {
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  width: 100%;
+  height: 180px;
+}
+
+.res-card h3 {
+  color: #333;
+  margin: 12px 16px 4px;
+  font-size: 20px;
+}
+
+.res-card h4 {
+  color: #777;
+  margin: 0 16px 8px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.res-card span {
+  color: #444;
+  margin: 4px 16px 0;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.res-img {
+  width: 100%;
+  height: 200px;
+}
+
+.restaurant-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.top-rated-res {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+}
+
+.shimmer-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.shimmer-card {
+  background-color: #f0f0f0;
+  border-radius: 16px;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+}
+
+.login {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.search {
+  margin: 10px;
+}
+
+.search input {
+  width: 150px;
+  height: 10px;
+  padding: 10px;
+}
+
+.search button {
+  margin: 5px;
+}
+
+.filter {
+  display: flex;
+}
+/*# sourceMappingURL=02_swiggy_app.9e4c6fd2.css.map */
